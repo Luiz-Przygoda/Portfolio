@@ -14,7 +14,7 @@ O portfólio foi criado com foco em design moderno, responsividade e facilidade 
 
 ## 🌐 Acesse online
 
-[👉 Clique aqui para acessar meu portfólio](COLE_AQUI)
+[👉 Clique aqui para acessar meu portfólio](https://portfolio-git-main-luiz-przygodas-projects.vercel.app/))
 
 ## ✨ Tecnologias utilizadas
 
