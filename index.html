@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="assets/css/styles.css">
+
+        <!-- =====BOX ICONS===== -->
+        <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+
+        <title>Portfolio Luiz Gustavo</title>
+    </head>
+    <body>
+        <!--===== HEADER =====-->
+        <header class="l-header">
+            <nav class="nav bd-grid">
+                <div>
+                    <a href="#" class="nav__logo">Luiz Gustavo</a>
+                </div>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="#home" class="nav__link active-link">Home</a></li>
+                        <li class="nav__item"><a href="#about" class="nav__link">Sobre</a></li>
+                        <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
+                        <li class="nav__item"><a href="#work" class="nav__link">Experiência</a></li>
+                        <li class="nav__item"><a href="#projects" class="nav__link">Projetos</a></li>
+                        <li class="nav__item"><a href="#contact" class="nav__link">Contato</a></li>
+                    </ul>
+                </div>
+                <!-- Botão Dark Mode -->
+                <button class="theme-toggle" id="theme-toggle" aria-label="Alternar tema">
+                  <i class='bx bx-moon'></i>
+                </button>
+
+                <div class="nav__toggle" id="nav-toggle">
+          <i class='bx bx-menu'></i>
+        </div>
+            </nav>
+        </header>
+
+        <main class="l-main">
+            <!--===== HOME =====-->
+            <section class="home bd-grid" id="home">
+                <div class="home__data">
+                    <h1 class="home__title">Olá,<br>Eu sou <span class="home__title-color">Luiz Gustavo</span><br> Web developer</h1>
+
+
+                    <a href="assets/cv/CV Luiz Gustavo.pdf" download class="button" target="_blank">
+                      <i class='bx bx-download'></i> Baixe o CV
+                    </a>
+                </div>
+
+                <div class="home__social">
+                    <a href="https://www.linkedin.com/in/luizgustavoprzygoda/" class="home__social-icon"><i class='bx bxl-linkedin'></i></a>
+                    <a href="https://github.com/Luiz-Przygoda" class="home__social-icon"><i class='bx bxl-github' ></i></a>
+                </div>
+
+                <div class="home__img">
+                  <svg class="home__blob" viewBox="0 0 479 467" xmlns="http://www.w3.org/2000/svg">
+                    <mask id="mask0" mask-type="alpha">
+                      <path d="M9.19024 145.964C34.0253 76.5814 114.865 54.7299 184.111 29.4823C245.804 6.98884 311.86 -14.9503 370.735 14.143C431.207 44.026 467.948 107.508 477.191 174.311C485.897 237.229 454.931 294.377 416.506 344.954C373.74 401.245 326.068 462.801 255.442 466.189C179.416 469.835 111.552 422.137 65.1576 361.805C17.4835 299.81 -17.1617 219.583 9.19024 145.964Z"/>
+                    </mask>
+                    <g mask="url(#mask0)">
+                      <path fill="#407BFF" d="M9.19024 145.964C34.0253 76.5814 114.865 54.7299 184.111 29.4823C245.804 6.98884 311.86 -14.9503 370.735 14.143C431.207 44.026 467.948 107.508 477.191 174.311C485.897 237.229 454.931 294.377 416.506 344.954C373.74 401.245 326.068 462.801 255.442 466.189C179.416 469.835 111.552 422.137 65.1576 361.805C17.4835 299.81 -17.1617 219.583 9.19024 145.964Z"/>
+                      <!-- Sua foto aqui! -->
+                      <image x="70" y="60" width="340" height="340" href="assets/img/PerfilAnimado.png" class="home__blob-img"/>
+                    </g>
+                  </svg>
+                </div>
+            </section>
+
+            <!--===== ABOUT =====-->
+            <section class="about section " id="about">
+                <h2 class="section-title">Sobre</h2>
+
+                <div class="about__container bd-grid">
+                    <div class="about__img">
+                        <img src="assets/img/perfil.jpg" alt="">
+                    </div>
+                    
+                    <div>
+                        <h2 class="about__subtitle">Olá, eu sou Luiz Gustavo</h2>
+                        <p class="about__text">Sou Luiz Gustavo Przygoda, estudante do 6º período do curso de Ciência da Computação, um desenvolvedor focado em criar soluções web funcionais e bem estruturadas. Já trabalhei em projetos que vão desde landing pages responsivas até sistemas completos com Node.js, React e PostgreSQL. Gosto de unir design limpo, código organizado e experiência do usuário para entregar resultados de qualidade.</p>           
+                    </div>                                   
+                </div>
+            </section>
+
+            <!--===== SKILLS =====-->
+           <section class="skills section" id="skills">
+  <h2 class="section-title">Skills</h2>
+  <div class="skills-carousel-auto">
+    <div class="carousel-track-auto">
+      <div class="skill"><i class='bx bxl-html5 skill__icon'></i><span class="skill__name">HTML5</span></div>
+      <div class="skill"><i class='bx bxl-css3 skill__icon'></i><span class="skill__name">CSS3</span></div>
+      <div class="skill"><i class='bx bxl-javascript skill__icon'></i><span class="skill__name">JavaScript</span></div>
+      <div class="skill"><i class='bx bxl-react skill__icon'></i><span class="skill__name">React</span></div>
+      <div class="skill"><i class='bx bxl-nodejs skill__icon'></i><span class="skill__name">Node.js</span></div>
+      <div class="skill">
+        <img src="assets/img/java-svgrepo-com.svg" alt="Java" class="skill__icon" style="width:2.5rem; height:2.5rem;">
+        <span class="skill__name">Java</span>
+      </div>
+      <div class="skill">
+        <img src="assets/img/spring-boot-svgrepo-com.svg" alt="Spring Boot" class="skill__icon" style="width:2.5rem; height:2.5rem;">
+        <span class="skill__name">Spring Boot</span>
+      </div>
+      <div class="skill">
+        <img src="assets/img/python-127-svgrepo-com.svg" alt="Python" class="skill__icon" style="width:2.5rem; height:2.5rem;">
+        <span class="skill__name">Python</span>
+      </div>
+      <div class="skill">
+        <img src="assets/img/php01-svgrepo-com.svg" alt="PHP" class="skill__icon" style="width:2.5rem; height:2.5rem;">
+        <span class="skill__name">PHP</span>
+      </div>
+      <div class="skill"><i class='bx bxl-git skill__icon'></i><span class="skill__name">Git</span></div>
+      <div class="skill"><i class='bx bxs-paint skill__icon'></i><span class="skill__name">UX/UI</span></div>
+    </div>
+  </div>
+</section>
+
+
+            <!--===== WORK =====-->
+            <section class="work section" id="work">
+  <h2 class="section-title">Experiência</h2>
+  <div class="experience__container bd-grid">
+    <div class="experience__card">
+      <h3 class="experience__title">SOLLOS.JaderAlmeida</h3>
+      <h4 class="experience__role">Suporte Comercial Pleno</h4>
+      <p class="experience__description">
+        Atuação na assistência à equipe de vendas, sendo responsável pela gestão de leads. Realização de ajustes e atualizações no sistema interno, garantindo a organização e a correta alimentação de dados. Suporte na resolução de dúvidas sobre a utilização do sistema, facilitando a usabilidade e otimização dos processos. Participação ativa no desenvolvimento e implementação de estratégias de vendas e responsável pelas campanhas promocionais, contribuindo para a melhoria dos resultados e alcance dos objetivos comerciais.
+      </p>
+    </div>
+    <div class="experience__card">
+      <h3 class="experience__title">Secretaria da Agricultura e Epagri</h3>
+      <h4 class="experience__role">Estágio</h4>
+      <p class="experience__description">
+        Como estagiário no atendimento ao público, desenvolvi habilidades sólidas em comunicação e relacionamento com clientes, lidando com diversas demandas de forma eficiente. Fui responsável pela organização de planilhas no Excel e pela criação de bônus agropecuários e de infraestrutura, garantindo maior precisão nos processos. Além disso, atuei em projetos sociais e eventos da Epagri, aprimorando minhas competências em planejamento, organização e trabalho em equipe.
+      </p>
+    </div>
+  </div>
+</section>
+
+<!--===== PROJECTS =====-->
+<section class="projects section" id="projects">
+  <h2 class="section-title">Projetos</h2>
+
+  <div class="projects__container bd-grid">
+    <article class="project__card">
+      <img src="assets/img/landigpageAVANTI.png" alt="Projeto 1" class="project__img">
+      <h3 class="project__title">Landing page Teste Técnico</h3>
+      <p class="project__description">Uma landing page moderna e responsiva criada com HTML, TailwindCSS e JavaScript, inspirada no layout proposto pelo Figma para um desafio.</p>
+      <div class="project__buttons">
+        <a href="https://luiz-przygoda.github.io/Teste_Tecnico_Landing_Page_AVANTI/" target="_blank" class="button project__btn-demo">
+          <i class='bx bx-show'></i> Demo
+        </a>
+        <a href="https://github.com/Luiz-Przygoda/Teste_Tecnico_Landing_Page_AVANTI" target="_blank" class="button project__btn-git">
+          <i class='bx bxl-github'></i> GitHub
+        </a>
+      </div>
+    </article>
+
+    <article class="project__card">
+      <img src="assets/img/BuscaPerfil.png" alt="Projeto 2" class="project__img">
+      <h3 class="project__title">Buscador de Perfil GitHub</h3>
+      <p class="project__description">O Busca de Perfil no GitHub é uma aplicação feita em React com TailwindCSS, que consome a API pública do GitHub para buscar e exibir informações de um usuário.</p>
+      <div class="project__buttons">
+        <a href="https://github-profile-finder-blond.vercel.app/" target="_blank" class="button project__btn-demo">
+          <i class='bx bx-show'></i> Demo
+        </a>
+        <a href="https://github.com/Luiz-Przygoda/Github_Profile_Finder" target="_blank" class="button project__btn-git">
+          <i class='bx bxl-github'></i> GitHub
+        </a>
+      </div>
+    </article>
+
+    <article class="project__card">
+      <img src="assets/img/Plantaphp.png" alt="Projeto 3" class="project__img">
+      <h3 class="project__title">Catálogo de Plantas Ornamentais</h3>
+      <p class="project__description">Sistema web de cadastro e gerenciamento de plantas ornamentais, desenvolvido com CodeIgniter 4, PHP e MySQL.</p>
+      <div class="project__buttons">
+        <a href="https://github.com/LuanFelipeTenroller/prog3-crud" target="_blank" class="button project__btn-demo">
+          <i class='bx bx-show'></i> Demo
+        </a>
+        <a href="https://github.com/LuanFelipeTenroller/prog3-crud" target="_blank" class="button project__btn-git">
+          <i class='bx bxl-github'></i> GitHub
+        </a>
+      </div>
+    </article>
+
+    <article class="project__card">
+      <img src="assets/img/CID.png" alt="Projeto 4" class="project__img">
+      <h3 class="project__title">CID - Criminal Incident Database</h3>
+      <p class="project__description">Desenvolvido para simplificar o acesso do cidadão ao serviço de registro de ocorrências policiais, possibilitando a comunicação on-line de crimes e eventos atípicos.</p>
+      <div class="project__buttons">
+        <a href="https://github.com/ManelSMO/CID" target="_blank" class="button project__btn-demo">
+          <i class='bx bx-show'></i> Demo
+        </a>
+        <a href="https://github.com/seuusuario/repositorio4" target="_blank" class="button project__btn-git">
+          <i class='bx bxl-github'></i> GitHub
+        </a>
+      </div>
+    </article>
+
+     <article class="project__card">
+      <img src="assets/img/relogio.png" alt="Projeto 5" class="project__img">
+      <h3 class="project__title">Relógio Digital</h3>
+      <p class="project__description">Um relógio digital moderno com design futurista, gradiente animado, com barra de progresso e efeitos visuais impressionantes. Desenvolvido com HTML, CSS e JavaScript puro.</p>
+      <div class="project__buttons">
+        <a href="https://luiz-przygoda.github.io/Relogio_Digital/" target="_blank" class="button project__btn-demo">
+          <i class='bx bx-show'></i> Demo
+        </a>
+        <a href="https://github.com/Luiz-Przygoda/Relogio_Digital" target="_blank" class="button project__btn-git">
+          <i class='bx bxl-github'></i> GitHub
+        </a>
+      </div>
+    </article>
+  </div>
+</section>
+
+
+
+            <!--===== CONTACT =====-->
+            <section class="contact section" id="contact">
+                <h2 class="section-title">Contato</h2>
+
+                <div class="contact__container bd-grid">
+                    <form action="https://formsubmit.co/luizprzygoda24@gmail.com" method="POST" class="contact__form">
+    <input type="text" name="name" placeholder="Nome" class="contact__input" required>
+    <input type="email" name="email" placeholder="Email" class="contact__input" required>
+    <textarea name="message" placeholder="Sua mensagem" cols="0" rows="10" class="contact__input" required></textarea>
+    <button type="submit" class="contact__button button">Enviar</button>
+</form>
+                </div>
+            </section>
+        </main>
+
+        <!--===== FOOTER =====-->
+        <footer class="footer">
+            <p class="footer__title">Luiz Gustavo</p>
+            
+            <p class="footer__copy">&#169; By Luiz Gustavo. All rigths reserved</p>
+
+            <div class="footer__social">
+    <a href="https://www.linkedin.com/in/luizgustavoprzygoda/" target="_blank" class="footer__icon"><i class='bx bxl-linkedin'></i></a>
+    <a href="https://github.com/Luiz-Przygoda" target="_blank" class="footer__icon"><i class='bx bxl-github'></i></a>
+</div>
+        </footer>
+
+
+        <!--===== SCROLL REVEAL =====-->
+        <script src="https://unpkg.com/scrollreveal"></script>
+
+        <!--===== MAIN JS =====-->
+        <script src="assets/js/main.js"></script>
+        <script>
+  window.onload = function() {
+    alert("Bem-vindo(a)! Obrigado por visitar meu portfólio. Fique à vontade para conhecer meus projetos e experiências!");
+  }
+</script>
+    </body>
+</html>
